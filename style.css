@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  filter: invert();
+  background-color: #000000;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10,10%);
+  height: 100vh;
+}
+
+.div1{
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+
+}
+
+.div2{
+  grid-column: 1 / span 1;
+  grid-row: 2/ span 4;
+  background-color: #ffffff;
+
+}
+.div3{
+  grid-column: 2 / span 1;
+  grid-row: 1/ span 2;
+
+}
+
+.div4{
+  grid-column: 2 / span 1;
+  grid-row: 3/ span 3;
+  background-color: #ffffff;
+}
+
+.div5{
+  grid-column: 3 / span 1;
+  grid-row: 1/ span 3;
+
+}
+
+.div6{
+  grid-column: 3 / span 1;
+  grid-row: 4/ span 2;
+  background-color: #ffffff;
+}
+
+.div7{
+  grid-column: 4 / span 1;
+  grid-row: 1/ span 4;
+
+}
+
+.div8{
+  grid-column: 4 / span 1;
+  grid-row: 5/ span 1;
+  background-color: #ffffff;
+}
+
+.div9{
+  grid-column: 5 / span 1;
+  grid-row: 1/ span 5;
+
+}
+
+.div10{
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 5;
+
+}
+
+.div11{
+  grid-column: 2 / span 1;
+  grid-row: 6/ span 4;
+
+}
+
+.div12 {
+  grid-column: 2 / span 1;
+  grid-row: 10/ span 1;
+  background-color: #ffffff;
+}
+
+.div13{
+  grid-column: 3 / span 1;
+  grid-row: 6/ span 3;
+
+}
+
+.div14{
+  grid-column: 3 / span 1;
+  grid-row:  9/ span 2;
+  background-color: #ffffff;
+}
+
+.div15{
+  grid-column: 4 / span 1;
+  grid-row: 6/ span 2;
+
+}
+
+.div16{
+  grid-column: 4 / span 1;
+  grid-row: 8/ span 3;
+  background-color: #ffffff;
+}
+
+.div17{
+  grid-column: 5 / span 1;
+  grid-row: 6/ span 1;
+
+}
+
+.div18{
+  grid-column: 5 / span 1;
+  grid-row: 7/ span 4;
+  background-color: #ffffff;
+}
+
+.cursor_po{
+  width:100%;
+  top:50%;
+  left:50%;
+  z-index: 100;
+  position: absolute;
+  margin-top: -300px;
+  margin-left: -10px;
+
+}
+
+.stick{
+  width: 10px;
+  height: 600px;
+  background-color: #222222;
+  box-shadow:0px 0px 30px #FF32B1;
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
